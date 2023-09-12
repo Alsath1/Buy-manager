@@ -1,0 +1,27 @@
+.new-cost {
+  background-color: #262626;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 70rem;
+  max-width: 95%;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.25);
+}
+
+.new-cost button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid var(--Gray-700, #8284FA);
+  background-color: #262626;
+  color: #F2F2F2;
+  border-radius: 10px;
+  margin-right: 3px;
+}
+
+.new-cost button:hover,
+.new-cost button:active {
+  background-color: #585858;
+  border-color: #8284FA;
+}
